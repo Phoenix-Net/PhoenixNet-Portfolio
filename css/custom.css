@@ -103,3 +103,7 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
