@@ -104,6 +104,6 @@
 
 .overflow-hidden { overflow: hidden; }
 
-body {
-  overflow: hidden; /* Hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
 }
