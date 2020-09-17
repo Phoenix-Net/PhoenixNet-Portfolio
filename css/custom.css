@@ -56,7 +56,7 @@
 }
 
 .vcenterbg {
-  background: url(../img/vcentersc.png) no-repeat top center;
+  background: url(img/vcentersc.png) no-repeat top center;
   background-size:contain;
   background-size:cover;
 }
