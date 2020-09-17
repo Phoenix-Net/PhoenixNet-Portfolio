@@ -43,8 +43,8 @@
   background-size:cover;
 }
 
-.pmbg {
-  background: url(../img/phoenixmanagementsc.png) no-repeat top center;
+.pncdnbg {
+  background: url(../img/phoenixnetcdn.png) no-repeat top center;
   background-size:contain;
   background-size:cover;
 }
@@ -106,4 +106,10 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.img-wrapper::after {
+  font-size: 12px;
+  content: 'Click Image To View Full Size';
+  display: block;
 }
