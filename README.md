@@ -3,4 +3,4 @@ Little thing I've thrown together to show-off what I've done over the past year 
 
 =)
 
-![screenshot](https://raw.githubusercontent.com/Phoenixthedoggo/PhoenixNet-Portfolio/master/img/github-demo.png)
+![screenshot](https://raw.githubusercontent.com/Phoenix-Net/PhoenixNet-Portfolio/master/img/github-demo.png)
