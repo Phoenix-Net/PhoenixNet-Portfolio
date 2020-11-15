@@ -50,7 +50,20 @@
                 <ul class="timeline">
                     <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                         <div class="timeline-arrow"></div>
-                        <h2 class="h5 mb-0">NAS Migration</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>Present</span>
+                        <h2 class="h5 mb-0">VoIP In the lab!</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>Present</span>
+                        <p class="text-small mt-2 font-weight-light">For a while, I had felt that things had "stagnated" in the lab, so I wanted to start a new project. This new project resulted in the addition of VoIP to my lab environment.<br/><br/>
+                          I initally invested in some Cisco 7961-GE's to get introduced to VoIP/SIP/PBX and they worked pretty spot-on for a while. I also picked 3CX as my PBX/SIP solution.<br/>
+                          After experimenting with what I had, I decided to take it a step further and purchase a SIP Trunk and allow out-bound calling from my lab to further my experiment.<br/><br/>
+                          After that, I was introduced to a model of VoIP / Cloud PBX phone called the Cisco Meraki MC74. This phone was a cloud-managed VoIP phone for enterprise networks. I invested in two of them, and began work to integrate them into my lab.<br/><br/>
+                          Essentially, they're touchscreen deskphones that run Android, so I can load whatever SIP client I want and connect to my PBX server. The whole process is documented on github <a href="https://github.com/reviveMC74/reviveMC74">here</a>.<br/><br/>
+                          The project is still on-going, but so-far it's been a runaway success. I've got both phones successfully connecting to my 3CX PBX Server, and have been actively contributing to the project on Github.
+                        </p>
+                        <img src="./img/lab-photos/Nov-2020-2.jpg" class="img-fluid rounded" style="padding-bottom: 10px;">
+                        <img src="./img/lab-photos/Nov-2020-1.png" class="img-fluid rounded">
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">NAS Migration</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>August, 2020</span>
                         <p class="text-small mt-2 font-weight-light">A month-or-so ago, FreeNAS annouced that they were merging with TrueNAS a seperate project, which is very similar to FreeNAS.<br/><br/>
                           As a result, I had to come up with a plan to migrate from FreeNAS to TrueNAS. I decided my best route would be to do a ZFS replication-based migration from FreeNAS to TrueNAS using the built-in replication tools.<br/>
                           After doing so, I attempted, <em>several times</em>, to migrate my NextCloud install from my FreeNAS VM to my TrueNAS VM, but it kept throwing errors, and was unable to be upgraded, so I ended up rebuilding it entirely.<br/>
@@ -187,6 +200,7 @@
           <ul class="list-unstyled text-small">
             <li><a class="text-muted" href="https://Cloud.gsheps.net">PhoenixCloud</a></li>
             <li><a class="text-muted" href="https://cdn.gsheps.com">PhoenixNet CDN</a></li>
+            <li><a class="text-muted" href="https://retriever.gsheps.net">Retriever</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
